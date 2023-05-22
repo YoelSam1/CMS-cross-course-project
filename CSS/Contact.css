@@ -1,0 +1,394 @@
+:root {
+    --background-color: #E9EFFF;
+    --darkred-color: #9D1B1B;
+    --lightgray-color: #D1D1D1;
+    --dark-color: #000000;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.scrolling-top-style {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--background-color);
+}
+
+.s {
+    color: #9F1212;
+}
+
+/*mobile style*/
+@media only screen and (max-width:943px) {
+
+    .desktop-img, nav, .desktop.meny {
+        display: none;
+    }
+
+
+    body {
+        font-size: 15px;
+    }
+    main {
+        margin-top: 20%;
+    }
+
+    .phone-icon {
+        margin-top: 6%;
+    }
+    
+    .figma-icon {
+        margin-left: 10%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+    
+    .line-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-right: 53%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .wifi-icon {
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+        margin-left: 14%;
+    }
+
+    .battery-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .phone-logo {
+        margin-left: 15%;
+        width: 20%;
+        margin-top: -3%;
+    }
+
+    .shop-menu {
+        margin-left: 35%;
+        width: 5%;
+    }
+
+    .hamburger-menu {
+        width: 7%;
+        margin-left: 4%;
+    }
+
+    .line {
+        color: white;
+        margin-top: -0.4em;
+    }
+
+    .call-img {
+        margin-left: 10%;
+        width: 15%;
+        background-color: #e1514a2e;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    .email-icon {
+        margin-left: 10%;
+        width: 15%;
+        background-color: #8585e63d;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    .call-email-icon {
+        margin-top: 15%;
+    }
+
+    .number-email {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+        margin-left: 21%;
+        font-size: 3vw;
+        margin-top: -13%;
+    }
+
+    .c-us {
+        margin-top: -10%;
+        font-size: 7vw;
+    }
+
+    .pack {
+        text-align: center;
+        background-color: #42f75e2b;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+
+    #Fname {
+        padding-right: 25%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: -5%;
+    }
+
+    #e-email {
+        padding-right: 25%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    #Enter-message {
+        padding-right: 25%;
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 2%;
+    }
+
+    .s {
+        text-decoration: none;
+        background-color: #d2c3c3;
+        border-radius: 28px;
+        padding: 2%;
+    }
+
+    .submit {
+        margin-top: 10%;
+        font-size: 3.5vw;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+        
+    }
+    
+    
+    .p-2 {
+        margin-left: -5.5%;
+        margin-top: 2.3em;
+        margin-right: 4%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 10%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+}
+
+
+
+
+
+/*desktop style*/
+@media only screen and (min-width:944px) {
+    
+    .mobile-style, .phone-icon {
+        display: none;
+    }
+
+    .line-2 {
+        color: white;
+    }
+    
+    .desktop-logo {
+        width: 150px;
+        margin-top: 15%;
+    }
+
+    .icon-img {
+        width: 40%;
+      }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav a {
+        display: block;
+        color: #000000;
+        text-decoration: none;
+        padding-left: 26.7px;
+        text-align: center;
+        padding-right: 26.8px;
+    }
+
+    .call-img {
+        margin-left: 10%;
+        width: 15%;
+        background-color: #e1514a2e;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    .email-icon {
+        margin-left: 10%;
+        width: 15%;
+        background-color: #8585e63d;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    .call-email-icon {
+        margin-top: 15%;
+    }
+
+    .number-email {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+        margin-left: 21%;
+        font-size: 3vw;
+        margin-top: -13%;
+    }
+
+    .c-us {
+        margin-top: -10%;
+        font-size: 7vw;
+    }
+
+    .pack {
+        text-align: center;
+        background-color: #42f75e2b;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+
+    #Fname {
+        padding-right: 25%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: -5%;
+    }
+
+    #e-email {
+        padding-right: 25%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    #Enter-message {
+        padding-right: 25%;
+        padding-top: 2%;
+        padding-bottom: 10%;
+        margin-top: 2%;
+    }
+
+    .s {
+        text-decoration: none;
+        background-color: #d2c3c3;
+        border-radius: 28px;
+        padding: 2%;
+    }
+
+    .submit {
+        margin-top: 10%;
+        font-size: 3.5vw;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 1.5vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+    
+    
+    .p-2 {
+        margin-left: -3%;
+        margin-top: 2.3em;
+        margin-right: 10%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 15%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+        margin-left: 5%;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+}

@@ -1,0 +1,447 @@
+:root {
+    --background-color: #E9EFFF;
+    --darkred-color: #D01A1A;
+    --lightgray-color: #D1D1D1;
+    --dark-color: #000000;
+}
+
+
+body {
+  background-color: var(--background-color);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.scrolling-top-style {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--background-color);
+}
+
+.product-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.add-to-cart {
+    background-color: #05004e;
+    width: 4rem;
+    height: 4rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+  
+  .add-to-cart ion-icon {
+    font-size: 2.5rem;
+  }
+
+  .product {
+    display:flex;
+    justify-content: center;
+    gap:100px;
+  }
+  .product {
+    flex:0.3;
+    padding:50px;
+    
+  }
+  .product .product-content {
+    flex:0.5;
+    padding:50px;
+}
+
+img {
+    width: 80%;
+}
+
+
+.loader {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.95s, visibility 0.95s;
+
+}
+
+.loader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: red;
+    border-radius: 50%;
+    animation: loading 0.95s ease infinite;
+}
+
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile style*/
+@media only screen and (max-width:943px) {
+
+    .desktop-img, nav, .desktop-style, .desktop.meny {
+        display: none;
+    }
+
+
+    body {
+        font-size: 15px;
+    }
+    main {
+        margin-top: 35%;
+    }
+
+    .phone-icon {
+        margin-top: 6%;
+    }
+    
+    .figma-icon {
+        margin-left: 10%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+    
+    .line-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-right: 53%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .wifi-icon {
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+        margin-left: 14%;
+    }
+
+    .battery-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .phone-logo {
+        margin-left: 15%;
+        width: 20%;
+        margin-top: -3%;
+    }
+
+    .shop-menu {
+        margin-left: 35%;
+        width: 5%;
+        margin-bottom: 1%;
+    }
+
+    .hamburger-menu {
+        width: 7%;
+        margin-left: 4%;
+    }
+
+    .line {
+        color: white;
+        margin-top: -0.4em;
+    }
+
+    .Grey-skiing-Jacket {
+        margin-left: auto;
+        width: 60%;
+        background-color: white;
+        padding: 3%;
+        margin-right: auto;
+        display: block;
+        margin-top: 10%;
+    }
+
+    .exite-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: 16%;
+        margin-top: 15%;
+        width: 5%;
+    }
+
+    .jacket-name {
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 10%;
+    }
+
+    .jacket-info {
+        font-family: arial;
+        text-align: center;
+        font-size: 4.5vw;
+        margin-top: 10%;
+    }
+
+    .size.and.price {
+        font-size: 3vw;
+        margin-left: 26%;
+        margin-top: 15%;
+    }
+
+    .addtoshop {
+        margin-left: 63%;
+        padding: 3%;
+        border-radius: 20%;
+        width: 5%;
+        background-color: #FFAEAE;
+    }
+
+    .shop {
+        margin-top: -13%;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-top: 30%;
+        margin-bottom: 10%;
+        
+    }
+    
+    
+    .p-2 {
+        margin-left: -5.5%;
+        margin-top: 2.3em;
+        margin-right: 4%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 10%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*desktop style*/
+@media only screen and (min-width:944px) {
+    
+    .mobile-style, .phone-icon, .phone-style {
+        display: none;
+    }
+
+    main {
+        margin-top: 15%;
+    }
+    
+    .desktop-logo {
+        width: 150px;
+        margin-top: 15%;
+    }
+
+    .icon-img {
+        width: 40%;
+      }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav a {
+        display: block;
+        color: #000000;
+        text-decoration: none;
+        padding-left: 26.7px;
+        text-align: center;
+        padding-right: 26.8px;
+    }
+
+    .line-2 {
+        color: white;
+    }
+
+    .Grey-skiing-Jacket-2 {
+        float: left;
+        width: 40%;
+        background-color: white;
+        padding: 2%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .exite-icon-2 {
+        margin-left: auto;
+        display: block;
+        margin-right: 5%;
+        margin-top: 10%;
+        width: 3%;
+        margin-bottom: -3%;
+    }
+
+    .jacket-name-2 {
+        margin-top: 15%;
+        text-align: right;
+        margin-right: 8%;
+        font-size: 2.67vw;
+    }
+
+    .jacket-info-2 {
+        font-family: arial;
+        margin-left: 63%;
+        font-size: 1.666vw;
+    }
+
+    .solo-style {
+        margin-right: 18%;
+    }
+
+
+    .size {
+        margin-top: 10%;
+        margin-left: 63%;
+        font-size: 2vw;
+    }
+
+    .price {
+        margin-top: 10%;
+        margin-left: 63%;
+        font-size: 2vw;
+    }
+
+    .addtoshop-2 {
+        margin-left: auto;
+        display: flex;
+        margin-top: -8.5%;
+        margin-right: 8%;
+        padding: 2%;
+        border-radius: 20%;
+        width: 3%;
+        background-color: #FFAEAE;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 1.5vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+    
+    
+    .p-2 {
+        margin-left: -3%;
+        margin-top: 2.3em;
+        margin-right: 10%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 15%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+        margin-left: 5%;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+}

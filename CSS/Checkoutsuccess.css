@@ -1,0 +1,332 @@
+:root {
+    --background-color: #E9EFFF;
+    --darkred-color: #D01A1A;
+    --lightgray-color: #D1D1D1;
+    --dark-color: #000000;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.scrolling-top-style {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--background-color);
+}
+
+
+/*mobile style*/
+@media only screen and (max-width:943px) {
+
+    .desktop-img, nav, .desktop.meny, .desktop-style {
+        display: none;
+    }
+
+
+    body {
+        font-size: 15px;
+    }
+    main {
+        margin-top: 26%;
+    }
+
+    .phone-icon {
+        margin-top: 6%;
+    }
+    
+    .figma-icon {
+        margin-left: 10%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+    
+    .line-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-right: 53%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .wifi-icon {
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+        margin-left: 14%;
+    }
+
+    .battery-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .phone-logo {
+        margin-left: 15%;
+        width: 20%;
+        margin-top: -3%;
+    }
+
+    .shop-menu {
+        margin-left: 35%;
+        width: 5%;
+        margin-bottom: 1%;
+    }
+
+    .hamburger-menu {
+        width: 7%;
+        margin-left: 4%;
+    }
+
+    .line {
+        color: white;
+        margin-top: -0.4em;
+    }
+
+    .smile-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        margin-top: 15%;
+    }
+
+    .p-1-1 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 15%;
+    }
+
+    .p-2-2 {
+        margin-top: 2.3em;
+        margin-left: 13%;
+        font-size: 3vw;
+    }
+
+    .p-3 {
+        text-align: center;
+        margin-top: 15%;
+        margin-right: 21%;
+        font-size: 2.5vw;
+    }
+
+    .car-img {
+        margin-left: auto;
+        display: flex;
+        margin-top: -12%;
+        width: 15%;
+        margin-right: 15%;
+    }
+
+    .CONTINUE-SHOPPING {
+        text-align: center;
+        margin-top: 15%;
+        font-size: 3vw;
+    }
+
+    .c-s {
+        text-decoration: none;
+        background-color: #958c8c82;
+        padding: 2%;
+        border-radius: 29px;
+        color: #ce1c1c;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+        
+    }
+    
+    
+    .p-2 {
+        margin-left: -5.5%;
+        margin-top: 2.3em;
+        margin-right: 4%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 10%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+
+}
+
+
+
+/*desktop style*/
+@media only screen and (min-width:944px) {
+    
+    .mobile-style, .phone-icon {
+        display: none;
+    }
+
+    
+    .line-2 {
+        color: white;
+    }
+    
+    .desktop-logo {
+        width: 150px;
+        margin-top: 15%;
+    }
+
+    .icon-img {
+        width: 40%;
+      }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav a {
+        display: block;
+        color: #000000;
+        text-decoration: none;
+        padding-left: 26.7px;
+        text-align: center;
+        padding-right: 26.8px;
+    }
+
+    .smile-img-2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        margin-top: 15%;
+    }
+
+    .p-11 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 15%;
+    }
+
+    .p-22 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 15%;
+        margin-right: 15%;
+    }
+
+    .p-33 {
+        text-align: center;
+        margin-top: 15%;
+        margin-left: 20%;
+        font-size: 2vw;
+    }
+
+    .car-img-2 {
+        margin-right: auto;
+        display: flex;
+        margin-top: -5%;
+        width: 15%;
+        margin-left: 20%;
+    }
+
+    .CONTINUE-SHOPPING-2 {
+        text-align: center;
+        margin-top: 15%;
+        font-size: 3vw;
+    }
+
+    .c-s-2 {
+        text-decoration: none;
+        background-color: #958c8c82;
+        padding: 2%;
+        border-radius: 29px;
+        color: #ce1c1c;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 1.5vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+    
+    
+    .p-2 {
+        margin-left: -3%;
+        margin-top: 2.3em;
+        margin-right: 10%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 15%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+        margin-left: 5%;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+}

@@ -1,0 +1,491 @@
+:root {
+    --background-color: #E9EFFF;
+    --darkred-color: #D01A1A;
+    --lightgray-color: #D1D1D1;
+    --dark-color: #000000;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.scrolling-top-style {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: var(--background-color);
+}
+
+
+/*mobile style*/
+@media only screen and (max-width:943px) {
+
+    .desktop-img, nav, .desktop.meny, .desktop-style {
+        display: none;
+    }
+
+
+    body {
+        font-size: 15px;
+    }
+    main {
+        margin-top: 22%;
+    }
+
+    .phone-icon {
+        margin-top: 6%;
+    }
+    
+    .figma-icon {
+        margin-left: 10%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+    
+    .line-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-right: 53%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .wifi-icon {
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+        margin-left: 14%;
+    }
+
+    .battery-icon {
+        margin-left: 5%;
+        width: 1%;
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+
+    .phone-logo {
+        margin-left: 15%;
+        width: 20%;
+        margin-top: -3%;
+    }
+
+    .shop-menu {
+        margin-left: 35%;
+        width: 5%;
+        margin-bottom: 1%;
+    }
+
+    .hamburger-menu {
+        width: 7%;
+        margin-left: 4%;
+    }
+
+    .line {
+        color: white;
+        margin-top: -0.4em;
+    }
+
+    .Grey-skiing-Jacket {
+        margin-left: auto;
+        width: 60%;
+        background-color: white;
+        padding: 3%;
+        margin-right: auto;
+        display: block;
+        margin-top: 10%;
+    }
+
+    .jacket-name {
+        text-align: center;
+        font-size: 4vw;
+        margin-top: 3%;
+        margin-bottom: 10%;
+    }
+
+    .order-tag {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .order-detail-style {
+        display: flex;
+        justify-content: space-between;
+        font-family: arial;
+        font-size: 3.5vw;
+        border-right-style: solid;
+        margin-right: 20%;
+        margin-left: 20%;
+        border-left-style: solid;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-bottom-style: solid;
+    }
+
+    .info-list-style {
+        display: flex;
+        justify-content: space-between;
+        font-family: arial;
+        font-size: 3.5vw;
+        border-right-style: solid;
+        margin-right: 20%;
+        margin-left: 20%;
+        border-left-style: solid;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .total-600-style {
+        display: flex;
+        justify-content: space-between;
+        font-family: arial;
+        font-size: 3.5vw;
+        border-right-style: solid;
+        margin-right: 20%;
+        margin-left: 20%;
+        border-left-style: solid;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-top-style: solid;
+        margin-bottom: 10%;
+    }
+
+    .accept-style {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .card-icon-style {
+        text-align: center;
+    }
+
+    .pay {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .name-on-card {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    #date {
+        width: 3em;
+        margin-right: 4%;
+    }
+
+    #cvc {
+        width: 2em;
+    }
+
+    .date-cvc {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    form {
+        border-left-style: solid;
+        border-right-style: solid;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        color: #00000029;
+    }
+
+    .Ckeckout {
+        font-size: 3vw;
+        color: #ff2b2b;
+        background-color: #acab7b8a;
+        margin-left: 42%;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 1%;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 2vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+        
+    }
+    
+    
+    .p-2 {
+        margin-left: -5.5%;
+        margin-top: 2.3em;
+        margin-right: 4%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 10%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+}
+
+
+
+/*desktop style*/
+@media only screen and (min-width:944px) {
+    
+    .mobile-style, .phone-icon {
+        display: none;
+    }
+
+    .line-2 {
+        color: white;
+    }
+    
+    .desktop-logo {
+        width: 150px;
+        margin-top: 15%;
+    }
+
+    main {
+        margin-top: 13%;
+    }
+
+    .icon-img {
+        width: 40%;
+      }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav a {
+        display: block;
+        color: #000000;
+        text-decoration: none;
+        padding-left: 26.7px;
+        text-align: center;
+        padding-right: 26.8px;
+    }
+
+    .Grey-skiing-Jacket-2 {
+        width: 23%;
+        background-color: white;
+        padding: 2%;
+        display: block;
+        margin-right: auto;
+        margin-left: 10%;
+    }
+
+    .order-detail-style-2 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-bottom-style: solid;
+    }
+
+    .info-list-style-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5%;
+        padding-left: 5%;
+        margin-top: 5%;
+    }
+
+    .total-600-style-2 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+        border-top-style: solid;
+        padding-right: 5%;
+        margin-top: 5%;
+    }
+
+    .jacket-tag {
+        text-align: left;
+        margin-left: 14%;
+        font-size: 2vw;
+    }
+
+    .summery-tag {
+        display: block;
+        font-size: 3vw;
+        text-align: right;
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+
+    .borde-style {
+        border-left-style: solid;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        padding-top: 1.1%;
+        padding-bottom: 0.8%;
+        border-right-style: solid;
+        margin-right: 10%;
+        margin-top: -38%;
+        margin-left: 38%;
+        background-color: #13deff03;
+    }
+
+    .card-icon-style-2 {
+        margin-left: 15%;
+    }
+
+    .accept-style-2 {
+        margin-top: 20%;
+        margin-left: 13%;
+        font-size: 4vw;
+    }
+
+    .pay-2 {
+        width: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .form-2 {
+        text-align: center;
+        margin-top: -13%;
+        margin-left: 30%;
+    }
+
+    .card {
+        width: 5%;
+    }
+
+    .name-on-card-2 {
+        margin-top: 3%;
+    }
+
+    #card-number-2 {
+        width: 30%;
+        background-color: #6eb1d963;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+    #name-on-card-2 {
+        width: 30%;
+        background-color: #6eb1d963;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+    #date-2 {
+        width: 6%;
+        margin-right: 11%;
+        background-color: #6eb1d963;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+    #cvc-2 {
+        width: 5%;
+        background-color: #6eb1d963;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+    }
+
+    .date-cvc-2 {
+        margin-top: 3%;
+    }
+
+    .Ckeckout-2 {
+        margin-top: 10%;
+        font-size: 3vw;
+    }
+
+    .c-2 {
+        text-decoration: none;
+        background-color: #75ffc599;
+        border-radius: 28px;
+        padding: 1%;
+        color: red;
+    }
+
+    footer section img {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        font-size: 1.5vw;
+        margin-left: 5%;
+        margin-top: 25%;
+        margin-bottom: 10%;
+    }
+    
+    
+    .p-2 {
+        margin-left: -3%;
+        margin-top: 2.3em;
+        margin-right: 10%;
+        text-decoration: underline;
+    }
+    
+    .Email {
+        margin-left: 15%;
+        margin-top: 3em;
+    }
+    
+    .address {
+        margin-top: 3em;
+        margin-left: 5%;
+    }
+
+    .p-1 {
+        margin-left: -2%;
+    }
+
+    .Facebook-icon {
+        margin-left: 5%;
+        margin-top: 3em;
+    }
+
+    .Instagram-icon {
+        margin-top: 3em;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 2vw;
+    }
+
+}
